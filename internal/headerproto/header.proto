@@ -1,0 +1,9 @@
+syntax="proto2";
+
+package headerproto;
+
+message Header {
+  optional int64 CompressionType = 1;
+  optional int64 SoftTimeoutTs = 2;
+  optional int64 HardTimeoutTs = 3;
+}
